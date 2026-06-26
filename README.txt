@@ -1,10 +1,10 @@
-# 📄 Facturas IA — Extractor automático de datos con IA
+#  Facturas IA — Extractor automático de datos con IA
 
 Sube una factura o recibo en PDF y obtén sus datos clave extraídos automáticamente
 (proveedor, fecha, total, conceptos) usando IA con salida estructurada garantizada.
 Guarda todo en base de datos, muestra un dashboard, y exporta a Excel.
 
-## ✨ ¿Por qué este proyecto?
+##  ¿Por qué este proyecto?
 La captura manual de datos de facturas es una tarea repetitiva común en
 administración/contabilidad. Esta app automatiza ese proceso de punta a punta.
 
@@ -34,3 +34,4 @@ administración/contabilidad. Esta app automatiza ese proceso de punta a punta.
 - OCR para facturas escaneadas (Tesseract)
 - Autenticación de usuarios
 - Soporte multi-moneda
+
