@@ -1,0 +1,8 @@
+venv/
+.env
+*.db
+__pycache__/
+uploads/
+facturas_exportadas.xlsx
+node_modules/
+frontend/dist/

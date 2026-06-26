@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: #f4f6f5; }
+.app { max-width: 900px; margin: 0 auto; padding: 24px; }
+.header { text-align: center; margin-bottom: 24px; }
+.header h1 { margin: 0; color: #14463b; }
+.header p { color: #5b6b66; margin-top: 4px; }
+.tabs { display: flex; justify-content: center; gap: 8px; margin-bottom: 24px; }
+.tabs button { padding: 10px 20px; border: none; background: #e2e8e6; border-radius: 20px; cursor: pointer; font-size: 14px; color: #2a3a35; }
+.tabs button.activo { background: #1d6f5e; color: white; }
+.contenido { background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+.zona-drop { border: 2px dashed #b8c7c2; border-radius: 12px; padding: 50px 20px; text-align: center; cursor: pointer; transition: all 0.2s; }
+.zona-drop:hover, .zona-drop.arrastrando { border-color: #1d6f5e; background: #f0f6f4; }
+.zona-drop .icono { font-size: 36px; margin: 0; }
+.aviso.error { margin-top: 16px; padding: 12px; background: #fde8e8; color: #a33; border-radius: 8px; }
+.resultado-card { margin-top: 20px; padding: 16px; background: #f0f6f4; border-radius: 10px; border-left: 4px solid #1d6f5e; }
+.resultado-card h3 { margin-top: 0; }
+.acciones-tabla { margin-bottom: 16px; text-align: right; }
+.boton-exportar { display: inline-block; background: #1d6f5e; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-size: 14px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e8e8e8; font-size: 14px; }
+th { color: #5b6b66; font-weight: 600; }
+.vacio { text-align: center; color: #888; padding: 40px 0; }
+.tarjetas-resumen { display: flex; gap: 16px; margin-bottom: 24px; }
+.tarjeta { flex: 1; background: #f0f6f4; border-radius: 10px; padding: 20px; text-align: center; }
+.tarjeta .numero { font-size: 28px; font-weight: 700; color: #14463b; margin: 0; }
+.tarjeta .etiqueta { color: #5b6b66; margin: 4px 0 0; font-size: 13px; }
